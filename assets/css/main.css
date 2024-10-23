@@ -72,6 +72,9 @@ input, select, textarea {
 }
 
 /* Basic */
+	.white {
+		color: rgb(226,226,226);
+	}
 
 	@-ms-viewport {
 		width: device-width;
@@ -1914,8 +1917,8 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ffffff;
-			color: #312450 !important;
+			background-color: #1cd368;
+			color: white !important;
 		}
 
 			input[type="submit"].primary:after,
